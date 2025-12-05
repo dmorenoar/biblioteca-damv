@@ -51,14 +51,14 @@ namespace BibliotecaDemo
         {
             if (opcio == "1")
             {
-                MostrarTotesLlibres();
+                //MostrarTotesLlibres();
             }
             else if (opcio == "2")
             {
                 Console.Write("Introdueix el títol a cercar: ");
                 string titol = Console.ReadLine();
-                int posicio = CercarLlibre(titol);
-
+                // int posicio = CercarLlibre(titol);
+                int posicio = 0;
                 // ERROR: possible IndexOutOfRangeException
                 if (posicio >= 0)
                 {

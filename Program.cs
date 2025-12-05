@@ -18,9 +18,9 @@ namespace BibliotecaDemo
             Console.WriteLine();
 
             // Afegir alguns llibres de prova
-            AfegirLlibre("El Quixot", "Cervantes", 1605);
+           /* AfegirLlibre("El Quixot", "Cervantes", 1605);
             AfegirLlibre("1984", "Orwell", 1949);
-            AfegirLlibre("", "", 0); // ERROR: dades buides permeses
+            AfegirLlibre("", "", 0); // ERROR: dades buides permeses*/
 
             while (!sortir)
             {
@@ -82,11 +82,11 @@ namespace BibliotecaDemo
                 // ERROR: no es controla l'excepció si l'usuari no introdueix un número
                 int any = int.Parse(Console.ReadLine());
 
-                AfegirLlibre(titol, autor, any);
+               // AfegirLlibre(titol, autor, any);
             }
             else if (opcio == "4")
             {
-                MostrarEstadistiques();
+               // MostrarEstadistiques();
             }
             else if (opcio == "5")
             {

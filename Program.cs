@@ -25,7 +25,7 @@ namespace BibliotecaDemo
             while (!sortir)
             {
                 MostrarMenu();
-                string opcio = Console.ReadLine();
+                string? opcio = Console.ReadLine();
 
                 // ERROR: No es valida l'entrada de l'usuari
                 ProcessarOpcio(opcio, ref sortir);
